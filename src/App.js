@@ -8,6 +8,9 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
+          I'm feeling more confident using React!
+        </p>
+        <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <a
@@ -16,7 +19,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Hello brave new world
         </a>
       </header>
     </div>
