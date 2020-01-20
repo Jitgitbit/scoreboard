@@ -19,7 +19,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Hello brave new world
+          Hello brave new world!
         </a>
       </header>
     </div>
