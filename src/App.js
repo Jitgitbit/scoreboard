@@ -6,11 +6,11 @@ import Title from "./components/Title";
 function App() {
   return (
     <div className="App">
+      <main>
+        <Title />
+      </main>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          I'm feeling more confident using React!
-        </p>
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -20,11 +20,12 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Hello brave new world!
+          Learn React
         </a>
       </header>
     </div>
   );
 }
+
 
 export default App;
