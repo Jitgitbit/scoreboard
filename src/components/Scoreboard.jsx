@@ -40,7 +40,7 @@ export default class Scoreboard extends Component {
   }
   addPlayer = (name) => {
     const player = {
-      id: Math.round(Math.random()*100000),
+      id: Math.trunc(Math.random()*100000),
       name,
       score: 0
     }
